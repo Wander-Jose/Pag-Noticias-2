@@ -1,0 +1,20 @@
+/* Estilos para la imagen */
+.img-encabezado {
+    width: 100%; /* Ocupa el 100% del ancho de la caja */
+    height: 70%; /* Ocupa el 75% del largo de la caja */
+    object-fit: cover; /* Ajusta la imagen para cubrir el espacio */
+    display: block;
+}
+/* Estilos para el título */
+.titulo-encabezado {
+    margin: 15px 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+/* Estilos para la descripción */
+.descripción-encabezado {
+    margin: 0 15px 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}

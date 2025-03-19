@@ -1,0 +1,66 @@
+/* Estilos para la página de Contáctanos */
+.contacto-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.formulario-contacto, .informacion-contacto {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto h2, .informacion-contacto h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contacto button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-contacto button:hover {
+    background-color: #ff4500;
+}
+
+.informacion-contacto p {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .contacto-contenido {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .formulario-contacto, .informacion-contacto {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+}
