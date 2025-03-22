@@ -18,3 +18,11 @@
     color: #666;
     line-height: 1.5;
 }
+/* imagen de avatar */
+.avatar {
+    background-color: antiquewhite                        ;
+    width: 25%; /* Ocupa el 100% del ancho de la caja */
+    height: 100%; /* Ocupa el 75% del largo de la caja */
+    object-fit: cover; /* Ajusta la imagen para cubrir el espacio */
+    display: block;
+}
